@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pairing Dashboard - millsib</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">millsib</div>
+    <button id="menu-btn" class="menu-btn">☰</button>
+    <ul id="menu" class="menu">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">WhatsApp Bot</a></li>
+      <li><a href="#">Tutorial</a></li>
+      <li><a href="#">Referral</a></li>
+      <li><a href="#">Withdraw</a></li>
+      <li><a href="#">Profil</a></li>
+      <li><a href="#" class="logout">Keluar</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h1>WhatsApp Bots</h1>
+    <p>Selamat datang, mills!</p>
+    <div class="card warning">
+      <h3>Peringatan:</h3>
+      <p>Dilarang menghapus pesan yang sudah terkirim. Pelanggaran akan berakibat pemblokiran akun.</p>
+    </div>
+    <div class="cards">
+      <div class="card blue">
+        <h2>WhatsApp Aktif</h2>
+        <p class="count">0</p>
+      </div>
+      <div class="card red">
+        <h2>WhatsApp Terputus</h2>
+        <p class="count">0</p>
+      </div>
+    </div>
+    <button id="pairing-btn">Minta Kode Pairing</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
